@@ -1,6 +1,6 @@
 var playlist = new Object ({key: '1'});
 
 function updatePlaylist(playlist, artistName, songTitle){
-My Bloody Valentine: [Phil Ochs] = Slowdive;
+playlist[artistName] = songTitle
 return playlist
 }
